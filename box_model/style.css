@@ -1,0 +1,7 @@
+p,a {
+    width: 30px;
+    margin: 20px;
+    padding: 30px;
+    display: block;
+    border: 0.5cm solid #000;
+}

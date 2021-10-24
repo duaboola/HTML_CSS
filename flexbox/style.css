@@ -13,6 +13,7 @@ body{
     margin: 0 auto;
 }
 
+/*
 .flex-container{
     display: flex;
     background: #fff; 
@@ -21,14 +22,12 @@ body{
     justify-content: center;
     height: 600px;
     align-items: center;
-   /* flex-wrap: wrap-reverse;*/
 }
 
 .box{
     height: 100px;
     float: 0 0 100px;
-   /* width: 200px;
-    flex-grow: 1;*/
+   
 }
 
 .one{
@@ -43,4 +42,33 @@ body{
 .three{
     background: green;
     flex-basis: 100px;
+}*/
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
+}
+
+.one {
+    order :3;
+}
+
+.two {
+    order :2;
+}
+
+.three {
+    order :1;
+}
+
+.four {
+    order :0;
 }

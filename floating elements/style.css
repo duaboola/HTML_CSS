@@ -1,10 +1,11 @@
 .body{
     background-color: white;
+    width: 100%;
 }
 
 .wrapper{
     /*background-color: aliceblue;*/
-    max-width: 960px;
+    max-width: 100%;
     margin: 30px;
     padding: 30px;
     height: 300px;
@@ -29,6 +30,19 @@
     width: 29.33%;
     margin: 1%;
     padding: 1%;
+    position: relative;
+}
+
+.service:nth-child(1){
+    top: 5px;
+}
+
+.service:nth-child(2){
+    top: 10px;
+}
+
+.service:nth-child(3){
+    top: 15px;
 }
 
 .services::after{

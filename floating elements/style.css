@@ -41,3 +41,10 @@
     padding: 10px;
     background: #ccc;
 }
+
+section , aside {
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+}

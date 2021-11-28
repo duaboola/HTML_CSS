@@ -17,6 +17,8 @@
 			grid-gap:10px; 
             max-width: 960px;
 			margin: 0 auto;
+			/*align-items: stretch;
+			justify-items: stretch;*/
 		}
 		#content div{
 			background: #3bbced;
@@ -30,9 +32,12 @@
 		.one{
 			grid-column-start: 1;
 			grid-column-end: 3;
+			justify-self: start;
 		}
 		.two{
 			grid-column: 3/7;
+			align-items: center;
+			justify-items: center;
 		}
 		.three{
 			grid-column: 1/4;
